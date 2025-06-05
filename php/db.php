@@ -2,9 +2,9 @@
 // db.php
 
 function get_db() {
-    $dsn = "mysql:host=localhost;dbname=ep85643;charset=utf8mb4";
-    $user = "ep85643";
-    $pass = "jN3bQpHbPDnW";
+    $dsn = "mysql:host=localhost;dbname=;charset=utf8mb4";
+    $user = "";
+    $pass = "";
     $options = [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ];
